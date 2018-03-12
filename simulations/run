@@ -1,0 +1,4 @@
+#!/bin/sh
+cd `dirname $0`
+../src/ifanet -n .:../src $*
+# for shared lib, use: opp_run -l ../src/ifanet -n .:../src $*
